@@ -16,7 +16,7 @@ class Animator2 {
             this.xStart + this.width*frame, this.yStart,
             this.width, this.height,
             x, y,
-            this.width*(this.elapsedTime), this.height*(this.elapsedTime));
+            this.width*(this.elapsedTime + 2), this.height*(this.elapsedTime + 2));
     }
 
     currentFrame() {
